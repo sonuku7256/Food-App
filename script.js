@@ -112,7 +112,7 @@
       const total = items.reduce((s, [id, q]) => s + MENU.find(d => d.id == id).price * q, 0);
 
       // WhatsApp message banao
-      let msg = `🍽️ *NAYA ORDER — Ghar Ka Zaika*\n\n`;
+      let msg = `🍽️ *NEW ORDER — Ghar Ka Zaika*\n\n`;
       msg += `👤 *Customer:* ${name}\n`;
       msg += `📱 *Phone:* ${phone}\n`;
       msg += `📍 *Address:* ${address}\n`;
